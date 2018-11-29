@@ -24,7 +24,10 @@ code .
 docker build --rm -t <Node-project>:latest .
 docker images
 docker run -v $(pwd):/opt -p 3000:3000 -it <node-project>
+node test-node.js
 ```
+- Navigate to http://localhost:3000 in a browser
+
 - If needed use this command to attach or restart teh container
 ```
 docker ps -a
