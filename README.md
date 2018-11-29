@@ -16,7 +16,7 @@ cd node-project-setup-test/
 code .
 ```
 - Modify MOTD File replacing placeholder with your projects name
-- Modify Docker file and replacing value of PS1 with your projects idendtifier
+- Modify Dockerfile and replacing value of PS1 with your projects idendtifier
 
 ## Working with Docker
 
