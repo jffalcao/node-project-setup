@@ -9,6 +9,7 @@ This project contains the intial files to startup a Node project.
 cd ~/jfrflabs
 wget https://github.com/jffalcao/node-project-setup/archive/master.zip
 unzip master.zip
+rm master.zip
 ls 
 mv node-project-setup-master/ node-project-setup-test
 cd node-project-setup-test/
