@@ -11,7 +11,7 @@ wget https://github.com/jffalcao/node-project-setup/archive/master.zip
 unzip master.zip
 ls 
 mv node-project-setup-master/ node-project-setup-test
-cd node-project-setup-master/
+cd node-project-setup-test/
 code .
 ```
 - Modify MOTD File replacing placeholder with your projects name
