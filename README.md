@@ -28,8 +28,9 @@ docker run -v $(pwd):/opt -p 3000:3000 -it <node-project>
 node test-node.js
 ```
 - Navigate to http://localhost:3000 in a browser
+- <ctrl><c> to stop the server
 
-- If needed use this command to attach or restart teh container
+- If needed use this command to attach or restart the container
 ```
 docker ps -a
 docker attach <containerID>
