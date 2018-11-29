@@ -5,6 +5,14 @@ This project contains the intial files to startup a Node project.
 ## Set-up
 
 - Copy files to your project workspace
+```
+cd ~/jfrflabs
+wget https://github.com/jffalcao/node-project-setup/archive/master.zip
+unzip master.zip
+ls 
+cd node-project-setup-master/
+code .
+```
 - Modify MOTD File replacing placeholder with your projects name
 - Modify Docker file and replacing value of PS1 with your projects idendtifier
 
