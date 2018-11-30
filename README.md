@@ -10,7 +10,7 @@ cd ~/jfrflabs
 wget https://github.com/jffalcao/node-project-setup/archive/master.zip
 unzip master.zip
 rm master.zip
-ls 
+ls -l
 mv node-project-setup-master/ node-project-setup-test
 cd node-project-setup-test/
 code .
