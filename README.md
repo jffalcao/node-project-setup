@@ -17,10 +17,10 @@ code .
 ```
 - Generate a random port for the app from:  
 https://www.random.org/integers/?num=1&min=5001&max=49151&col=5&base=10&format=html&rnd=new
-- Modify MOTD File replacing placeholder **node-project** with your projects name
-- Modify Dockerfile replacing placeholder **Node Project** with your project name.
-- Modify Dockerfile replacing placeholder **ramdomPort** with the generated port.
-- Modify server.js replacing placeholder **ramdomPort** with the generated port.
+- Modify **MOTD** File replacing placeholder **NodeProject** with your projects name
+- Modify **Dockerfile** replacing placeholder **NodeProject** with your project name.
+- Modify **Dockerfile** replacing placeholder **RandomPort** with the generated port.
+- Modify **server.js** replacing placeholder **RandomPort** with the generated port.
 
 ## Working with Docker
 
