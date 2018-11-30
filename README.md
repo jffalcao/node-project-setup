@@ -15,8 +15,12 @@ mv node-project-setup-master/ node-project-setup-test
 cd node-project-setup-test/
 code .
 ```
-- Modify MOTD File replacing placeholder with your projects name
-- Modify Dockerfile and replacing value of PS1 with your projects idendtifier
+- Generate a random port for the app from:  
+https://www.random.org/integers/?num=1&min=5001&max=49151&col=5&base=10&format=html&rnd=new
+- Modify MOTD File replacing placeholder **node-project** with your projects name
+- Modify Dockerfile replacing placeholder **Node Project** with your project name.
+- Modify Dockerfile replacing placeholder **ramdomPort** with the generated port.
+- Modify server.js replacing placeholder **ramdomPort** with the generated port.
 
 ## Working with Docker
 
@@ -24,10 +28,10 @@ code .
 ```
 docker build --rm -t <Node-project>:latest .
 docker images
-docker run -v $(pwd):/opt -p 3000:3000 -it <node-project>
-node test-node.js
+docker run -v $(pwd):/jfrflabs -it <node-project>
+npm start
 ```
-- Navigate to http://localhost:3000 in a browser
+- Navigate to the displayed lin in the terminal
 - <ctrl><c> to stop the server
 
 - If needed use this command to attach or restart the container
