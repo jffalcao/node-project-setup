@@ -25,11 +25,16 @@ code .
 ```
 docker build --rm -t <Node-project>:latest .
 docker images
-docker run -v $(pwd):/jfrflabs -it <node-project>
+docker run -v $(pwd):/jfrflabs -P -it <node-project>
 npm start
 ```
-- Navigate to the displayed lin in the terminal
-- <ctrl><c> to stop the server
+- Get the exposed port number in the host terminal 
+```
+docker ps
+```
+
+- Navigate to http://localhost:<exposedPort>
+- <ctrl><c> to stop the server in the container
 
 - If needed use this command to attach or restart the container
 ```
