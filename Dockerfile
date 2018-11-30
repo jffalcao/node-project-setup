@@ -7,10 +7,10 @@ WORKDIR /jfrflabs
 
 ADD ./MOTD /opt/MOTD
 RUN echo "cat /opt/MOTD" >> /root/.bashrc && \
-    echo "PS1='<Node Project>:\w >> '" >> /root/.bashrc && \
+    echo "PS1='<NodeProject>:\w >> '" >> /root/.bashrc && \
     echo "defshell -bash" > /root/.screenrc && \
     npm install
 
-EXPOSE RandomPort
+EXPOSE 3000
 
 ENTRYPOINT ["/bin/bash"]

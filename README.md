@@ -15,12 +15,9 @@ mv node-project-setup-master/ node-project-setup-test
 cd node-project-setup-test/
 code .
 ```
-- Generate a random port for the app from:  
-https://www.random.org/integers/?num=1&min=5001&max=49151&col=5&base=10&format=html&rnd=new
-- Modify **MOTD** File replacing placeholder **NodeProject** with your projects name
+
 - Modify **Dockerfile** replacing placeholder **NodeProject** with your project name.
-- Modify **Dockerfile** replacing placeholder **RandomPort** with the generated port.
-- Modify **server.js** replacing placeholder **RandomPort** with the generated port.
+- Modify **MOTD** File replacing placeholder **NodeProject** with your projects name
 
 ## Working with Docker
 
