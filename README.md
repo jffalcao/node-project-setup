@@ -17,9 +17,9 @@ code .
 ```
 
 - Modify **Dockerfile** replacing placeholder **NodeProject** with your project name.
-- Modify **Dockerfile** by commenting/uncommenting host: 'localhost' or '0.0.0.0' depending is server is run locally or in a container
 - Modify **MOTD** File replacing placeholder **NodeProject** with your projects name
 - modify **runcontainer.sh** replacing the placeholder with **NodeProject** with your projects name
+- Modify **server.js** by commenting/uncommenting host: 'localhost' or '0.0.0.0' depending is server is run locally or in a container
 
 ## Working with Docker
 
