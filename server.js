@@ -1,5 +1,12 @@
 const http = require('http');
 
+// VS Code add line comment ctrl+k ctrl+c
+// VS code remove line comment ctrl+k ctrl+u
+
+// Running locally: uncomment next line
+// const host: 'localhost'
+
+// Running in a container: uncomment next line
 const hostname = '0.0.0.0';
 const port = 3000;
 

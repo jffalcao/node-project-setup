@@ -17,15 +17,21 @@ code .
 ```
 
 - Modify **Dockerfile** replacing placeholder **NodeProject** with your project name.
+- Modify **Dockerfile** by commenting/uncommenting host: 'localhost' or '0.0.0.0' depending is server is run locally or in a container
 - Modify **MOTD** File replacing placeholder **NodeProject** with your projects name
+- modify **runcontainer.sh** replacing the placeholder with **NodeProject** with your projects name
 
 ## Working with Docker
 
 - Building the container and running the container
 ```
-docker build --rm -t <Node-project>:latest .
+docker build --rm -t <NodeProject>:latest .
 docker images
-docker run -v $(pwd):/jfrflabs -P -it <node-project>
+```
+- Running the container (i necessary make runcontainer.sh executable)
+```
+sudo chmod +x runcontainer.sh
+./runcontainer.sh
 npm start
 ```
 - Get the exposed port number in the host terminal 
