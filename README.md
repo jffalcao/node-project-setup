@@ -39,7 +39,7 @@ npm start
 docker ps
 ```
 
-- Navigate to http://localhost:<exposedPort>
+- Navigate to http://localhost:exposedPort
 - <ctrl><c> to stop the server in the container
 
 - If needed use this command to attach or restart the container
